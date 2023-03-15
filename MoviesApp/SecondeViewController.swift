@@ -1,19 +1,21 @@
 //
-//  ViewController.swift
+//  SecondeViewController.swift
 //  MoviesApp
 //
-//  Created by Ruba on 21/08/1444 AH.
+//  Created by Ruba on 23/08/1444 AH.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+   
 
 }
-
