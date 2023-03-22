@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>NSCameraUsageDescription</key>
-	<string>The app &quot;Object Recognition&quot; would like to use camera.</string>
+	<string>The app Recognition would like to use camera</string>
 </dict>
 </plist>

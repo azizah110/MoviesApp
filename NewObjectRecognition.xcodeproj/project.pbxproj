@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38FA51E1298113B300CE48CD /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 38FA51E0298113B300CE48CD /* MobileNetV2.mlmodel */; };
 		431EC423283CE231003E6A07 /* NewObjectRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431EC422283CE231003E6A07 /* NewObjectRecognitionApp.swift */; };
 		431EC425283CE231003E6A07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431EC424283CE231003E6A07 /* ContentView.swift */; };
 		431EC427283CE233003E6A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431EC426283CE233003E6A07 /* Assets.xcassets */; };
 		431EC42A283CE233003E6A07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431EC429283CE233003E6A07 /* Preview Assets.xcassets */; };
-		431EC431283CE336003E6A07 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 431EC430283CE336003E6A07 /* MobileNetV2.mlmodel */; };
 		431EC437283E25E9003E6A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431EC436283E25E9003E6A07 /* LaunchScreen.storyboard */; };
 		431EC439283E26C3003E6A07 /* STUDIO KAORI.png in Resources */ = {isa = PBXBuildFile; fileRef = 431EC438283E26C3003E6A07 /* STUDIO KAORI.png */; };
 		431EC43E283E2A2C003E6A07 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431EC43D283E2A2C003E6A07 /* OnboardingView.swift */; };
@@ -20,12 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38FA51E0298113B300CE48CD /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		431EC41F283CE231003E6A07 /* NewObjectRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewObjectRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		431EC422283CE231003E6A07 /* NewObjectRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewObjectRecognitionApp.swift; sourceTree = "<group>"; };
 		431EC424283CE231003E6A07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		431EC426283CE233003E6A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431EC429283CE233003E6A07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		431EC430283CE336003E6A07 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		431EC436283E25E9003E6A07 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431EC438283E26C3003E6A07 /* STUDIO KAORI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "STUDIO KAORI.png"; sourceTree = "<group>"; };
 		431EC43B283E2915003E6A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -64,14 +64,22 @@
 		431EC421283CE231003E6A07 /* NewObjectRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				431EC43B283E2915003E6A07 /* Info.plist */,
-				431EC43A283E26C8003E6A07 /* images */,
+				431EC424283CE231003E6A07 /* ContentView.swift */,
 				431EC422283CE231003E6A07 /* NewObjectRecognitionApp.swift */,
+				38FA51E0298113B300CE48CD /* MobileNetV2.mlmodel */,
+				431EC43D283E2A2C003E6A07 /* OnboardingView.swift */,
+				431EC442283F4B54003E6A07 /* SwiftUIAVCaptureVideoPreviewView.swift */,
+				431EC440283E2A61003E6A07 /* HomeView.swift */,
+				431EC438283E26C3003E6A07 /* STUDIO KAORI.png */,
+				431EC43B283E2915003E6A07 /* Info.plist */,
+				431EC436283E25E9003E6A07 /* LaunchScreen.storyboard */,
+				431EC426283CE233003E6A07 /* Assets.xcassets */,
+				431EC429283CE233003E6A07 /* Preview Assets.xcassets */,
+				431EC43A283E26C8003E6A07 /* images */,
 				431EC444283F4B60003E6A07 /* Views */,
 				431EC43F283E2A39003E6A07 /* Screens */,
 				431EC43C283E296E003E6A07 /* Storyboards */,
 				431EC433283CE35B003E6A07 /* coreMLModels */,
-				431EC426283CE233003E6A07 /* Assets.xcassets */,
 				431EC428283CE233003E6A07 /* Preview Content */,
 			);
 			path = NewObjectRecognition;
@@ -80,7 +88,6 @@
 		431EC428283CE233003E6A07 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				431EC429283CE233003E6A07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,7 +95,6 @@
 		431EC433283CE35B003E6A07 /* coreMLModels */ = {
 			isa = PBXGroup;
 			children = (
-				431EC430283CE336003E6A07 /* MobileNetV2.mlmodel */,
 			);
 			path = coreMLModels;
 			sourceTree = "<group>";
@@ -96,7 +102,6 @@
 		431EC43A283E26C8003E6A07 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				431EC438283E26C3003E6A07 /* STUDIO KAORI.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -104,7 +109,6 @@
 		431EC43C283E296E003E6A07 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				431EC436283E25E9003E6A07 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -112,9 +116,6 @@
 		431EC43F283E2A39003E6A07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				431EC424283CE231003E6A07 /* ContentView.swift */,
-				431EC43D283E2A2C003E6A07 /* OnboardingView.swift */,
-				431EC440283E2A61003E6A07 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -122,7 +123,6 @@
 		431EC444283F4B60003E6A07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				431EC442283F4B54003E6A07 /* SwiftUIAVCaptureVideoPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431EC431283CE336003E6A07 /* MobileNetV2.mlmodel in Sources */,
+				38FA51E1298113B300CE48CD /* MobileNetV2.mlmodel in Sources */,
 				431EC43E283E2A2C003E6A07 /* OnboardingView.swift in Sources */,
 				431EC425283CE231003E6A07 /* ContentView.swift in Sources */,
 				431EC441283E2A61003E6A07 /* HomeView.swift in Sources */,
@@ -333,10 +333,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewObjectRecognition/Preview Content\"";
-				DEVELOPMENT_TEAM = LW3THBZ2Y7;
+				DEVELOPMENT_TEAM = 5B7QT3F769;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewObjectRecognition/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app \"Object Recognition\" would like to use camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -347,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studiokaori.NewObjectRecognition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azizahalshami;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -363,10 +364,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewObjectRecognition/Preview Content\"";
-				DEVELOPMENT_TEAM = LW3THBZ2Y7;
+				DEVELOPMENT_TEAM = 5B7QT3F769;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewObjectRecognition/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app \"Object Recognition\" would like to use camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -377,7 +379,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.studiokaori.NewObjectRecognition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azizahalshami;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
